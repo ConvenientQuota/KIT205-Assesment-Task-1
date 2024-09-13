@@ -1,5 +1,5 @@
-Hash Table with chaining vs Hash Table using Open Addressing
+Hash Table with chaining vs Binary Search Tree
 
-The goal of this project is to utilise a simple database system that'll use hash tables that will compare two different types of implementation.
+The goal of this project is to utilise a simple database system that'll compare the effective ness between using a chaining hash table vs using a BST
 
-These will be tested based on using different hash function and observing their impact on basic operation such as searching, deleting, insertion, and etc. 
+observing their impact on basic operation such as searching, deleting, insertion, and etc. 
