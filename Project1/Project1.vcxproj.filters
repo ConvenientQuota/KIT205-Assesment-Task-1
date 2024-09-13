@@ -21,5 +21,8 @@
     <ClCompile Include="Chaining.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
