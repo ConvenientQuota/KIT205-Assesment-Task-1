@@ -23,10 +23,9 @@ typedef struct HashTable {
 } HashTable;
 
 /* Mapping an enclosureID to a hash table index*/
-int hashFunction(int enclosureID) {
-	return enclosureID % TableSize;
-}
+extern int hashFunction(int enclosureID);
 
 void insertEnclosure(HashTable* zoo, int enclosureID, char* name);
 void insertAnimal(HashTable* zoo, int enclosureID, int animalID, char* name, char* species, int age);
-
+void printAnimalsInEnclosure(HashTable* zoo, int enclosureID);
+void printAllEnclosures(HashTable* zoo);
