@@ -24,9 +24,18 @@
     <ClCompile Include="Bst.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="performance_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="zoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timingComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bst.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

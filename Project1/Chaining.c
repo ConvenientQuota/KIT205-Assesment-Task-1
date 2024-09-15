@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "zoo.h"
+#include <time.h>
 
 #define TableSize 10000
 

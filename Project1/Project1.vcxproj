@@ -131,8 +131,11 @@
     <ClCompile Include="Bst.c" />
     <ClCompile Include="Chaining.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="performance_test.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bst.h" />
+    <ClInclude Include="timingComparison.h" />
     <ClInclude Include="zoo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
