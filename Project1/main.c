@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "zoo.h"
+#include "bst.h"
 
 void test() {
 	printf("testing");
