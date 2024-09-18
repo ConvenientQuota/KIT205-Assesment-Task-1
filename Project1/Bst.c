@@ -65,8 +65,8 @@ void InsertAnimalBST(EnclosureBSTNode* root, int enclosureID, int animalID, char
 	else {
 		Animal* newAnimal = (Animal*)malloc(sizeof(Animal));
 		newAnimal->animalID = animalID;
-		strcpy(newAnimal->name, name);
-		strcpy(newAnimal->species, species);
+		strcpy_s(newAnimal->name, sizeof(newAnimal->name), name);
+		strcpy_s(newAnimal->species, sizeof(newAnimal->species), species);
 		newAnimal->age = age;
 		newAnimal->next = root->animals;
 		root->animals = newAnimal;

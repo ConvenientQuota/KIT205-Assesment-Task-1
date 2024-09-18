@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "zoo.h"
 #include "bst.h"
+#include "timingComparison.h"
 
 void test() {
 	printf("testing");
@@ -8,6 +9,7 @@ void test() {
 }
 
 int main() {
+	/*
 	HashTable zoo;
 	for (int i = 0; i < TableSize; i++) {
 		zoo.table[i] = NULL;
@@ -18,4 +20,18 @@ int main() {
 	insertAnimal(&zoo, 4444, 9, "bart", "elephant", 4); // TODO: Debug
 	printAllEnclosures(&zoo); // Working
 	printAnimalsInEnclosure(&zoo, 2539); // Working
+	*/
+
+	EnclosureBSTNode* zooBST = NULL;
+	HashTable zooHashTable = { 0 };
+
+	int numEnclosures = 10000;
+	int searchID = 5000;
+	int numSearches = 10000;
+
+	testInsertionPerformance(zooBST, &zooHashTable, numEnclosures);
+	testSearchPerformance(zooBST, &zooHashTable, searchID, numSearches);
+	testPrintingPerformance(zooBST, &zooHashTable);
+
+	return 0;
 }
