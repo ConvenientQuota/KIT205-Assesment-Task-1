@@ -1,4 +1,4 @@
-
+#pragma once
 #define TableSize 10000
 
 /* Defining data structures */
