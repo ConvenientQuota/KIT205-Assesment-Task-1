@@ -29,9 +29,14 @@ int main() {
 	int searchID = 5000;
 	int numSearches = 10000;
 
+	
 	testInsertionPerformance(zooBST, &zooHashTable, numEnclosures);
+	
 	testSearchPerformance(zooBST, &zooHashTable, searchID, numSearches);
 	testPrintingPerformance(zooBST, &zooHashTable);
+
+
+	
 
 	return 0;
 }

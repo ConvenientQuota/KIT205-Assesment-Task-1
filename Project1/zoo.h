@@ -1,15 +1,9 @@
 #pragma once
 #define TableSize 10000
+#include "animal.h"
 
 /* Defining data structures */
 
-typedef struct Animal {
-	int animalID;
-	char name[20];
-	char species[20];
-	int age;
-	struct Animal* next; //Chaining in the linked list
-}Animal;
 
 typedef struct Enclosure {
 	int enclosureID;
