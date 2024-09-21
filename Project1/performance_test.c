@@ -62,11 +62,11 @@ void testSearchPerformance(EnclosureBSTNode* root, HashTable* hashTable, int sea
 
 void testPrintingPerformance(EnclosureBSTNode* root, HashTable* hashTable) {
 	clock_t start, end;
-
+	start = clock();
 	printf("Testing Printing timing.\n");
 
 	// Testing the timing of BST printing
-	start = clock();
+	
 	printAllEnclosuresBST(root);
 	end = clock();
 	printf("Time taken for the BST print: %lf seconds.\n", getTimeInSeconds(start, end));

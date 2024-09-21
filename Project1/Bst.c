@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "bst.h"
+#include "animal.h"
 
 EnclosureBSTNode* createEnclosureNode(int enclosureID, char* name) {
 	EnclosureBSTNode* newNode = (EnclosureBSTNode*)malloc(sizeof(EnclosureBSTNode));

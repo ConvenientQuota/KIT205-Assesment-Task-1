@@ -3,6 +3,7 @@
 #include <string.h>
 #include "zoo.h"
 #include <time.h>
+#include "animal.h"
 
 #define TableSize 10000
 
